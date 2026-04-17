@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOULMATE - Teman Setia Kesehatan Mental Mahasiswa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        .gradient-soft { background: linear-gradient(135deg, #FFF5F7 0%, #FFFFFF 100%); }
+        .glass-card { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); }
+    </style>
+</head>
+<body class="gradient-soft text-slate-700">
+
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-pink-100">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="w-8 h-8 bg-pink-400 rounded-full flex items-center justify-center">
+                    <i data-lucide="heart" class="text-white w-5 h-5"></i>
+                </div>
+                <span class="text-2xl font-bold tracking-tighter text-pink-500">SOULMATE</span>
+            </div>
+            <div class="hidden md:flex space-x-8 font-medium text-slate-600">
+                <a href="#fitur" class="hover:text-pink-500 transition">Fitur</a>
+                <a href="#" class="hover:text-pink-500 transition">Library</a>
+                <a href="#" class="bg-pink-100 text-pink-600 px-5 py-2 rounded-full hover:bg-pink-200 transition">Mulai Chat</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-32 pb-20 px-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <span class="inline-block px-4 py-1.5 mb-6 text-sm font-semibold tracking-wide text-pink-600 uppercase bg-pink-50 rounded-full">
+                Kamu Tidak Sendirian
+            </span>
+            <h1 class="text-4xl md:text-6xl font-bold text-slate-800 leading-tight mb-6">
+                Tempat Aman untuk <span class="text-pink-500">Bercerita</span> <br>dan Menemukan Ketenangan.
+            </h1>
+            <p class="text-lg text-slate-500 max-w-2xl mx-auto mb-10">
+                Kuliah memang berat, tapi kamu tidak harus memikulnya sendirian. SOULMATE hadir sebagai sahabat yang siap mendengarkan kapan saja.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="https://wa.me/6282362512715" class="px-8 py-4 bg-pink-400 hover:bg-pink-500 text-white rounded-3xl font-semibold shadow-lg shadow-pink-200 transition-all transform hover:-translate-y-1">
+                    Mulai Curhat Sekarang
+                </a>
+                <a href="#fitur" class="px-8 py-4 bg-white border border-pink-100 text-pink-500 rounded-3xl font-semibold hover:bg-pink-50 transition-all">
+                    Pelajari Fitur
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-pink-50/30">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-8 text-slate-800">Merasa Lelah, Cemas, atau Kesepian?</h2>
+            <p class="text-xl leading-relaxed text-slate-600 italic">
+                "Tugas yang menumpuk, tekanan ekspektasi, dan rasa asing di tengah keramaian kampus... Kami tahu itu berat. Di sini, perasaanmu valid dan suara kamu didengar."
+            </p>
+        </div>
+    </section>
+
+    <section id="fitur" class="py-24 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 rounded-3xl border border-pink-100 bg-white hover:shadow-2xl hover:shadow-pink-100 transition-all group">
+                    <div class="w-14 h-14 bg-green-50 text-green-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i data-lucide="message-circle" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Konseling Langsung</h3>
+                    <p class="text-slate-500 mb-6 text-sm">Butuh respon manusia? Admin kami siap menemani sesi curhatmu secara personal.</p>
+                    <p class="text-xs font-bold text-slate-400 mb-4 uppercase tracking-widest">Jam Kerja: 08:00 - 22:00 WIB</p>
+                    <a href="https://wa.me/6282362512715" class="inline-block w-full text-center py-3 bg-slate-800 text-white rounded-2xl hover:bg-slate-700 transition">Hubungi Admin</a>
+                </div>
+
+                <div class="p-8 rounded-3xl border border-pink-100 bg-white hover:shadow-2xl hover:shadow-pink-100 transition-all group border-t-4 border-t-pink-300">
+                    <div class="w-14 h-14 bg-pink-50 text-pink-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i data-lucide="sparkles" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">AI Soulmate (Gemini)</h3>
+                    <p class="text-slate-500 mb-6 text-sm">Teman diskusi pintar yang tersedia 24/7. Siap mendengarkanmu meski di tengah malam sekalipun.</p>
+                    <p class="text-xs font-bold text-pink-400 mb-4 uppercase tracking-widest">Tersedia 24 Jam</p>
+                    <a href="https://gemini.google.com/app/73732bf8f73570ad" target="_blank" class="inline-block w-full text-center py-3 bg-pink-400 text-white rounded-2xl hover:bg-pink-500 transition">Chat AI</a>
+                </div>
+
+                <div class="p-8 rounded-3xl border border-pink-100 bg-white hover:shadow-2xl hover:shadow-pink-100 transition-all group">
+                    <div class="w-14 h-14 bg-mauve-50 text-purple-400 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition" style="background-color: #f3e8ff;">
+                        <i data-lucide="book-open" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Wellness Library</h3>
+                    <p class="text-slate-500 mb-6 text-sm">Kumpulan artikel dan tips praktis mengelola stress, kecemasan, dan kesehatan mental mahasiswa.</p>
+                    <p class="text-xs font-bold text-slate-400 mb-4 uppercase tracking-widest">Edukasi Gratis</p>
+                    <button class="inline-block w-full text-center py-3 border border-pink-100 text-pink-500 rounded-2xl hover:bg-pink-50 transition">Buka Library</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-pink-100 bg-white">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <div class="flex justify-center items-center space-x-2 mb-6">
+                <div class="w-6 h-6 bg-pink-400 rounded-full flex items-center justify-center">
+                    <i data-lucide="heart" class="text-white w-4 h-4"></i>
+                </div>
+                <span class="font-bold text-pink-500">SOULMATE</span>
+            </div>
+            <p class="text-slate-400 italic mb-8 italic">"Healing takes time, and asking for help is a courageous step."</p>
+            <div class="flex justify-center space-x-6 text-slate-400 mb-8">
+                <a href="#" class="hover:text-pink-400 transition"><i data-lucide="instagram"></i></a>
+                <a href="#" class="hover:text-pink-400 transition"><i data-lucide="twitter"></i></a>
+                <a href="#" class="hover:text-pink-400 transition"><i data-lucide="mail"></i></a>
+            </div>
+            <p class="text-xs text-slate-300">&copy; 2024 SOULMATE Project. Dibuat dengan cinta untuk mahasiswa.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/6282362512715" class="fixed bottom-8 right-8 w-16 h-16 bg-green-500 text-white rounded-full shadow-2xl flex items-center justify-center hover:scale-110 active:scale-95 transition-all z-[100]">
+        <i data-lucide="message-circle" class="w-8 h-8"></i>
+    </a>
+
+    <script>
+        // Inisialisasi Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
